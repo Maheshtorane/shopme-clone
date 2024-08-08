@@ -140,12 +140,12 @@ h5{
 .page2{
     height: 100%;
     width: 100%;
-    background-color: blueviolet;
+    
 }
 .page2 h1{
     font-size: 40vw;
     padding: 50px;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -177,5 +177,62 @@ select{
 .page3{
     height: 100%;
     width: 100%;
-    background-color: blueviolet;
+   
 }
+
+.box0{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(243, 239, 239);
+}
+.box0 a{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.box00{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(238, 235, 235);
+}
+.box00 a{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.page4{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.box9{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(243, 239, 239);
+}
+.box9 a{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.box99{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(238, 235, 235);
+}
+.box99 a{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+

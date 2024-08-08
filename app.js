@@ -66,3 +66,57 @@ gsap.to(".page2 h1", {
 });
 
 
+gsap.from('.box0',{
+    x:-1250,
+    duration:0.5,
+    delay:0.5,
+    scrollTrigger:{
+        trigger:".box0",
+        scroller:"body",
+        start:"top 90%",
+        end:"top 0%",
+        scrub:2,
+    }    
+})
+
+gsap.from('.box00',{
+    x:1250,
+    duration:0.5,
+    delay:0.5,
+    scrollTrigger:{
+        trigger:".box00",
+        scroller:"body",
+        start:"top 120%",
+        end:"top 60%",
+        scrub:2,
+    }    
+})
+
+//next box
+
+gsap.from('.box9',{
+    x:-1250,
+    duration:0.5,
+    delay:0.5,
+    scrollTrigger:{
+        trigger:".box9",
+        scroller:"body",
+        start:"top 90%",
+        end:"top 0%",
+        scrub:2,
+    }    
+})
+
+gsap.from('.box99',{
+    x:1250,
+    duration:0.5,
+    delay:0.5,
+    scrollTrigger:{
+        trigger:".box99",
+        scroller:"body",
+        start:"top 120%",
+        end:"top 60%",
+        scrub:2,
+    }    
+})
+
